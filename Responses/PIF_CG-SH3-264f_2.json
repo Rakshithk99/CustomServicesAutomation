@@ -1,0 +1,35 @@
+{
+    "Summary": [
+        [
+            "Date",
+            "2024-09-02 17:23:03"
+        ],
+        [
+            "User",
+            "SPATIALNETWORX\\rakk0001"
+        ],
+        [
+            "Request URL",
+            "http://10.246.4.103/spatialSTORM/spatialSUITE/v8_6_2/custom/PayloadReport?ReportType=PIF&Sheath=CG-SH3-264f&Segment=2"
+        ],
+        [
+            "Request Processing time (s)",
+            20.5170411
+        ]
+    ],
+    "Issues": [
+        
+    ],
+    "Data": [
+        {
+            "SHEATH": "CG-SH3-264f",
+            "NOTES": "CGSO-22-V1",
+            "FIBRE_SYSTEM": "CG-1:CG-482:fs9",
+            "BUFFER": "Rose",
+            "FIBRE": "Yellow",
+            "END": "CG-10-1-1",
+            "START": "CG-1739-1-4",
+            "PAYLOAD": "PIF-0"
+        }
+    ]
+}

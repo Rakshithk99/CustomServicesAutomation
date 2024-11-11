@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>CustomServicesAutomationProject</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Custom Services API</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sept 2, 2024 01:36:38 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PayloadReport_ThirdParty</p>
+            <p class="text-sm">
+              <span>1:37:30 pm</span> / <span>00:00:00:008</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">PayloadReport_ThirdParty</h5>
+<span class='badge badge-success'>09.02.2024 1:37:30 pm</span>
+<span class='badge badge-danger'>09.02.2024 1:37:30 pm</span>
+<span class='badge badge-default'>00:00:00:008</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:37:30 pm</td>
+        <td>
+          Test Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>1:37:30 pm</td>
+        <td>
+          expected [[[SHEATH:CG-SH3-264f, NOTES:SB 1313-10th-Avenue SW Diverse from CGSO-5016-W8 and CGS01-513-W4, PAYLOAD:75633, FIBRE_SYSTEM:CG-10:CG-2166:fs7, BUFFER:Black, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:7, MODULE:MOD 1, CONNECTOR:39, FS_END:CG-2166, LOCATIONID_:null, BAY_:CG-2166-3, PANEL_:CG-2166-3-1, MODULE_:CG-2166-3-1, CONNECTOR_:5, FIBRE:Green], [SHEATH:CG-SH3-264f, NOTES:SB 1313-10th-Avenue SW Diverse from CGSO-5016-W8 and CGS01-513-W4, PAYLOAD:75633, FIBRE_SYSTEM:CG-10:CG-2166:fs7, BUFFER:Black, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:7, MODULE:MOD 1, CONNECTOR:40, FS_END:CG-2166, LOCATIONID_:null, BAY_:CG-2166-3, PANEL_:CG-2166-3-1, MODULE_:CG-2166-3-1, CONNECTOR_:6, FIBRE:Brown], [SHEATH:CG-SH3-264f, NOTES:CG-662:CG-118, PAYLOAD:90073, FIBRE_SYSTEM:CG-10:CG-662:fs7, BUFFER:Violet, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:7, MODULE:MOD 1, CONNECTOR:72, FS_END:CG-662, LOCATIONID_:null, BAY_:CG-662-1, PANEL_:CG-662-1-2, MODULE_:CG-662-1-2, CONNECTOR_:23, FIBRE:Aqua], [SHEATH:CG-SH3-264f, NOTES:Wavelength swap Dvrs, PAYLOAD:7985, FIBRE_SYSTEM:CG-1:CG-721:fs11, BUFFER:Rose, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-1, LOCATIONID:CG-SO, BAY:BAY 501, PANEL:3, MODULE:MOD 1, CONNECTOR:7, FS_END:CG-721, LOCATIONID_:null, BAY_:CG-721-4, PANEL_:CG-721-4-2, MODULE_:CG-721-4-2, CONNECTOR_:17, FIBRE:Slate], [SHEATH:CG-SH3-264f, NOTES:Wavelength swap Dvrs, PAYLOAD:7985, FIBRE_SYSTEM:CG-1:CG-721:fs11, BUFFER:Rose, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-1, LOCATIONID:CG-SO, BAY:BAY 501, PANEL:3, MODULE:MOD 6, CONNECTOR:4, FS_END:CG-721, LOCATIONID_:null, BAY_:CG-721-4, PANEL_:CG-721-4-2, MODULE_:CG-721-4-2, CONNECTOR_:18, FIBRE:White], [SHEATH:CG-SH3-264f, NOTES:SB 1177-11 Avenue SW, PAYLOAD:73725, FIBRE_SYSTEM:CG-10:CG-1058:fs3, BUFFER:Aqua, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:7, MODULE:MOD 1, CONNECTOR:93, FS_END:CG-1058, LOCATIONID_:null, BAY_:CG-1058-1, PANEL_:CG-1058-1-2, MODULE_:CG-1058-1-2, CONNECTOR_:11, FIBRE:Yellow], [SHEATH:CG-SH3-264f, NOTES:SB-1313-10 Avenue SW, PAYLOAD:86212, FIBRE_SYSTEM:CG-10:CG-2166:fs8, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:27, FS_END:CG-2166, LOCATIONID_:null, BAY_:CG-2166-3, PANEL_:CG-2166-3-1, MODULE_:CG-2166-3-1, CONNECTOR_:7, FIBRE:Green], [SHEATH:CG-SH3-264f, NOTES:SB-1313-10 Avenue SW, PAYLOAD:86212, FIBRE_SYSTEM:CG-10:CG-2166:fs8, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:28, FS_END:CG-2166, LOCATIONID_:null, BAY_:CG-2166-3, PANEL_:CG-2166-3-1, MODULE_:CG-2166-3-1, CONNECTOR_:8, FIBRE:Brown], [SHEATH:CG-SH3-264f, NOTES:CWDM 1X8 Mux (CG-353-1-1) COM/IN, PAYLOAD:57634, FIBRE_SYSTEM:CG-10:CG-353:fs1, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:CG-DT, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:31, FS_END:CG-353, LOCATIONID_:null, BAY_:CWDM 1x8 Mux, PANEL_:CWDM 1x8 Mux, MODULE_:CWDM 1x8 Mux, CONNECTOR_:COM/IN, FIBRE:Red], [SHEATH:CG-SH3-264f, NOTES:CWDM 1X8 Mux (CG-353-1-1) COM/IN, PAYLOAD:87217, FIBRE_SYSTEM:CG-10:EN-533:fs1, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:31, FS_END:EN-533, LOCATIONID_:null, BAY_:EN-533-1, PANEL_:EN-533-1-2, MODULE_:EN-533-1-2, CONNECTOR_:3, FIBRE:Red], [SHEATH:CG-SH3-264f, NOTES:CWDM 1X8 Mux (CG-353-1-1) COM/IN, PAYLOAD:60508, FIBRE_SYSTEM:CG-10:CG-5315:fs1, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:31, FS_END:CG-5315, LOCATIONID_:null, BAY_:CG-5315-1, PANEL_:CG-5315-1-1, MODULE_:CG-5315-1-1, CONNECTOR_:1, FIBRE:Red], [SHEATH:CG-SH3-264f, NOTES:CWDM 1X8 Mux (CG-353-1-1) COM/IN, PAYLOAD:67396, FIBRE_SYSTEM:CG-10:CG-940:fs2, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:31, FS_END:CG-940, LOCATIONID_:null, BAY_:CG-940-1, PANEL_:CG-940-1-2, MODULE_:CG-940-1-2, CONNECTOR_:7, FIBRE:Red], [SHEATH:CG-SH3-264f, NOTES:CWDM 1X8 Mux (CG-353-1-1) COM/IN, PAYLOAD:92691, FIBRE_SYSTEM:CG-10:CG-1731:fs2, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:31, FS_END:CG-1731, LOCATIONID_:null, BAY_:CG-1731-1, PANEL_:CG-1731-1-2, MODULE_:CG-1731-1-2, CONNECTOR_:7, FIBRE:Red], [SHEATH:CG-SH3-264f, NOTES:CWDM 1X8 Mux (CG-353-1-1) COM/IN, PAYLOAD:90542, FIBRE_SYSTEM:CG-10:CG-3051:fs1, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:31, FS_END:CG-3051, LOCATIONID_:null, BAY_:FEP A, PANEL_:FEB A, MODULE_:FEB A, CONNECTOR_:1, FIBRE:Red], [SHEATH:CG-SH3-264f, NOTES:SB 200-8 Avenue SW, PAYLOAD:83238, FIBRE_SYSTEM:CG-10:CG-2456:fs1, BUFFER:Dark-Green, START:CG-1739-1-4, END:CG-10-1-1, DISTRICT_OFFICE:null, PRIMARY_CONTACT:null, FS_START:CG-10, LOCATIONID:null, BAY:BAY 101, PANEL:8, MODULE:MOD 1, CONNECTOR:35, FS_END:CG-2456, LOCATIONID_:null, BAY_:null, PANEL_:null, MODULE_:null, CONNECTOR_:null, FIBRE:Rose]]] but found [[[SHEATH:CG-SH3-264f, NOTES:Node CG354, FIBRE_SYSTEM:CG-10:CG-354:fs1, BUFFER:Orange, FIBRE:Yellow, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG354, HOMES_PASSED:397, Data_Modems:14, Voice_Modems:0, Total_Modems:14], [SHEATH:CG-SH3-264f, NOTES:Node CG354, FIBRE_SYSTEM:CG-10:CG-354:fs1, BUFFER:Orange, FIBRE:Violet, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG354, HOMES_PASSED:397, Data_Modems:14, Voice_Modems:0, Total_Modems:14], [SHEATH:CG-SH3-264f, NOTES:Node CG1957 CWDM, FIBRE_SYSTEM:CG-10:CG-1957:fs1, BUFFER:Aqua, FIBRE:Slate, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1957, HOMES_PASSED:218, Data_Modems:5, Voice_Modems:0, Total_Modems:5], [SHEATH:CG-SH3-264f, NOTES:Node CG1221, FIBRE_SYSTEM:CG-10:CG-1221:fs1, BUFFER:Dark-Orange, FIBRE:Blue, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1221, HOMES_PASSED:537, Data_Modems:18, Voice_Modems:0, Total_Modems:18], [SHEATH:CG-SH3-264f, NOTES:Node CG1221, FIBRE_SYSTEM:CG-10:CG-1221:fs1, BUFFER:Dark-Orange, FIBRE:Orange, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1221, HOMES_PASSED:537, Data_Modems:18, Voice_Modems:0, Total_Modems:18], [SHEATH:CG-SH3-264f, NOTES:Node CG1278, FIBRE_SYSTEM:CG-10:CG-1278:fs1, BUFFER:Dark-Orange, FIBRE:Green, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1278, HOMES_PASSED:117, Data_Modems:11, Voice_Modems:0, Total_Modems:11], [SHEATH:CG-SH3-264f, NOTES:Node CG1278, FIBRE_SYSTEM:CG-10:CG-1278:fs1, BUFFER:Dark-Orange, FIBRE:Brown, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1278, HOMES_PASSED:117, Data_Modems:11, Voice_Modems:0, Total_Modems:11], [SHEATH:CG-SH3-264f, NOTES:Node CG1279, FIBRE_SYSTEM:CG-10:CG-1279:fs1, BUFFER:Dark-Orange, FIBRE:Slate, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1279, HOMES_PASSED:149, Data_Modems:4, Voice_Modems:0, Total_Modems:4], [SHEATH:CG-SH3-264f, NOTES:Node CG1279, FIBRE_SYSTEM:CG-10:CG-1279:fs1, BUFFER:Dark-Orange, FIBRE:White, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1279, HOMES_PASSED:149, Data_Modems:4, Voice_Modems:0, Total_Modems:4], [SHEATH:CG-SH3-264f, NOTES:Node CG1474, FIBRE_SYSTEM:CG-10:CG-1474:fs1, BUFFER:Dark-Orange, FIBRE:Red, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1474, HOMES_PASSED:231, Data_Modems:8, Voice_Modems:0, Total_Modems:8], [SHEATH:CG-SH3-264f, NOTES:Node CG1474, FIBRE_SYSTEM:CG-10:CG-1474:fs1, BUFFER:Dark-Orange, FIBRE:Black, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1474, HOMES_PASSED:231, Data_Modems:8, Voice_Modems:0, Total_Modems:8], [SHEATH:CG-SH3-264f, NOTES:Node CG1482, FIBRE_SYSTEM:CG-10:CG-1482:fs1, BUFFER:Dark-Orange, FIBRE:Yellow, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1482, HOMES_PASSED:200, Data_Modems:5, Voice_Modems:0, Total_Modems:5], [SHEATH:CG-SH3-264f, NOTES:Node CG1482, FIBRE_SYSTEM:CG-10:CG-1482:fs1, BUFFER:Dark-Orange, FIBRE:Violet, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1482, HOMES_PASSED:200, Data_Modems:5, Voice_Modems:0, Total_Modems:5], [SHEATH:CG-SH3-264f, NOTES:Node CG1697 FWR, FIBRE_SYSTEM:CG-10:CG-1697:fs1, BUFFER:Dark-Brown, FIBRE:Blue, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1697, HOMES_PASSED:279, Data_Modems:12, Voice_Modems:0, Total_Modems:12], [SHEATH:CG-SH3-264f, NOTES:Node CG1697 RTN, FIBRE_SYSTEM:CG-10:CG-1697:fs1, BUFFER:Dark-Brown, FIBRE:Orange, CHANNEL:null, END:CG-10-1-1, START:CG-1739-1-4, PAYLOAD:CG1697, HOMES_PASSED:279, Data_Modems:12, Voice_Modems:0, Total_Modems:12]]]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>PayloadReport_ThirdParty</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sept 2, 2024 01:36:38 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sept 2, 2024 01:37:30 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>1</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='100%'><b>2</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"PayloadReport_ThirdParty":0.008
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>Custom Services API</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>rakk0001</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Rakshith</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 1,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

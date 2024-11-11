@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T12:33:28 IST" name="Suite" finished-at="2024-09-02T12:35:26 IST" duration-ms="117882">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T12:33:28 IST" name="Test" finished-at="2024-09-02T12:35:26 IST" duration-ms="117882">
+      <class name="api.test.ShawTests">
+        <test-method signature="PayloadReport_ThirdParty(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.ShawTests@2892d68]" started-at="2024-09-02T12:33:30 IST" name="PayloadReport_ThirdParty" data-provider="Data" finished-at="2024-09-02T12:34:29 IST" duration-ms="59082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Third_Party]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CG-SH3-264f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[./ExpectedOutput/ExpectedBody.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PayloadReport_ThirdParty -->
+        <test-method signature="PayloadReport_ThirdParty(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.ShawTests@2892d68]" started-at="2024-09-02T12:34:29 IST" name="PayloadReport_ThirdParty" data-provider="Data" finished-at="2024-09-02T12:35:00 IST" duration-ms="31383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Third_Party]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CG-SH185-48f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[./ExpectedOutput/ExpectedBody2.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PayloadReport_ThirdParty -->
+        <test-method signature="PayloadReport_ThirdParty(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.ShawTests@2892d68]" started-at="2024-09-02T12:35:00 IST" name="PayloadReport_ThirdParty" data-provider="Data" finished-at="2024-09-02T12:35:26 IST" duration-ms="25642" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PIF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [null]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at api.test.ShawTests.PayloadReport_ThirdParty(ShawTests.java:114)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PayloadReport_ThirdParty -->
+      </class> <!-- api.test.ShawTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
